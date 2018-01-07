@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.prod.js",
-    "start": "webpack-dev-server --open --config webpack.dev.js && cd dist && http-server -p 8081 -c-1"
+    "build": "webpack --config webpack.prod.js && cd dist && http-server -p 8081 -c-1",
+    "start": "webpack-dev-server --open --config webpack.dev.js"
   },
   "keywords": [],
   "author": "",
